@@ -243,6 +243,10 @@ pre.hl:hover .copy{opacity:1}
 .mcard.ai{background:linear-gradient(160deg,color-mix(in srgb,var(--bluebg) 70%,var(--panel)),var(--panel))}
 .day.ai{border-left:4px solid var(--blue)}
 @media (min-width:861px){body.side-hidden #content{margin-left:auto;margin-right:auto}body.side-hidden .foot{text-align:center}}
+@media (min-width:861px){
+ .top{padding-left:44px;padding-right:44px}
+ body.side-hidden .top{padding-left:max(44px,calc((100% - 1240px)/2 + 44px));padding-right:max(44px,calc((100% - 1240px)/2 + 44px))}
+}
 
 .light .hl .hll { background-color: #ffffcc }
 .light .hl .c { color: #60A0B0; font-style: italic } /* Comment */
